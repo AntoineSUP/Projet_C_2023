@@ -17,7 +17,7 @@
 rule C_COMPILER__calendar_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -25,7 +25,7 @@ rule C_COMPILER__calendar_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__calendar_Debug
-  command = $PRE_LINK && /usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/antoinejarmoszko/CLionProjects/calendar -B/Users/antoinejarmoszko/CLionProjects/calendar/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/antoinejarmoszko/CLionProjects/calendar/Projet_C_2023 -B/Users/antoinejarmoszko/CLionProjects/calendar/Projet_C_2023/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

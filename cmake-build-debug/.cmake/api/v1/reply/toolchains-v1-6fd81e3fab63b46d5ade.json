@@ -18,7 +18,7 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},
-				"path" : "/usr/bin/cc",
+				"path" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc",
 				"version" : "15.0.0.15000040"
 			},
 			"language" : "C",
