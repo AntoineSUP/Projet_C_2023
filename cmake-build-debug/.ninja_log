@@ -1,14 +1,12 @@
 # ninja log v5
-1	180	1702068877388504176	CMakeFiles/calendar.dir/main.c.o	21b9fe7ef860d58e
-1	180	1702068877388504093	CMakeFiles/calendar.dir/parti_2.c.o	5ce2e45b97147166
-0	56	1702069597438403486	build.ninja	8d8828cd1caeb8a7
-1	181	1699874475604893425	CMakeFiles/calendar.dir/timer.c.o	c389d95f6daa386b
-180	226	1702068877435065332	calendar	cb68c686658e9290
-1	180	1702068877389196055	CMakeFiles/calendar.dir/partie3.c.o	bd8145a6c233733c
-1	180	1702068877388629010	CMakeFiles/calendar.dir/parti_1.c.o	5c82967a02948862
+0	56	1702240896756130593	build.ninja	8d8828cd1caeb8a7
+2	49	1702069601650315979	CMakeFiles/calendar.dir/parti_2.c.o	768c4d5bc00b2460
 1	49	1702069601649394724	CMakeFiles/calendar.dir/main.c.o	52f8c7eb2a4ea31a
 2	49	1702069601649412265	CMakeFiles/calendar.dir/timer.c.o	93e56ea01fabdf7a
-2	49	1702069601649441349	CMakeFiles/calendar.dir/parti_1.c.o	a668fa0fa2bab1c6
-2	49	1702069601650315979	CMakeFiles/calendar.dir/parti_2.c.o	768c4d5bc00b2460
-2	49	1702069601650533313	CMakeFiles/calendar.dir/partie3.c.o	a589577bd5f6a085
 49	82	1702069601683884734	calendar	5e4ae4619ae29dc
+2	49	1702069601650533313	CMakeFiles/calendar.dir/partie3.c.o	a589577bd5f6a085
+2	49	1702069601649441349	CMakeFiles/calendar.dir/parti_1.c.o	a668fa0fa2bab1c6
+2	178	1702241085014237162	CMakeFiles/calendar.dir/parti_2.c.o	768c4d5bc00b2460
+0	178	1702241085014235245	CMakeFiles/calendar.dir/main.c.o	52f8c7eb2a4ea31a
+1	178	1702241085014237079	CMakeFiles/calendar.dir/parti_1.c.o	a668fa0fa2bab1c6
+178	1506	1702241086343226328	calendar	50ac38ba5c4cf0b1
