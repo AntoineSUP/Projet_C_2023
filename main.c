@@ -1,3 +1,7 @@
+//
+// Created by Antoine, Paul et Matthew on 10/12/2023.
+//
+
 #include <stdio.h>
 #include "parti_2.h"
 #include "timer.h"
